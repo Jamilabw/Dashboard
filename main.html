@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Walkover</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="toggle">
+             
+        </div>
+        <div class="sideBar">
+            <img src="./icons/HTML-CSS-VIASOCKET.png" alt="icons">
+            <div class="list1">
+                <ul>
+                    <li style="background-color: rgb(50, 246, 50); border-radius: 20px"> <i class="fa-solid fa-plus icons"></i> Create Flow</li>
+                    <li> <i class="fa-regular fa-circle-play icons"></i> My Flow</li>
+                    <li> <i class="fa-solid fa-globe icons"></i> Explore Flow</li>
+                    <li> <i class="fa-solid fa-table-cells icons"></i> My Apps</li>
+                    <li> <i class="fa-solid fa-chart-simple icons"></i> Metrics</li>
+                    <li> <i class="fa-solid fa-code icons"></i> Developer Hub</li>
+                    <li> <i class="fa-solid fa-headset icons"></i> Talk to Support</li>
+                </ul>
+            </div>
+            
+            <div class="list2">
+                <ul>
+                    <li> <i class="fa-solid fa-users icons"></i> Members</li>
+                    <li><i class="fa-solid fa-gear icons"></i> Workspace Settings</li>
+                    <li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Walkover</li>
+                    <li> <i class="fa-regular fa-user icons "></i> Devendra Patidar
+                        <select class="dropdown">
+                            <option value="option1">Log out</option>
+                          </select></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                    <img class="iconimg" src="./icons/backicon.png">
+                    <img class="iconimg" src="./icons/timer.png">
+                    <span>Birthday wish Flow</span>
+                    <button class="d-btn ">Draft</button>   
+                
+                <div class="rightmost">
+                    <button class="dark-mode">Dark Mode</button>
+                    <button class="test bttn">Test</button>
+                    <button class="publish bttn">Publish Flow</button>
+                    <i class="fa-solid fa-ellipsis-vertical icons"></i>
+                </div>
+            </div>
+        <div class="content">
+            <div class="leftContent">
+                <div class="box">
+                    <div class="text">
+                        <span>Flow: 5 Steps</span>
+                        <button class="config">Configure</button>
+                        <!-- <span class="arrow">
+                            <i class="fa-solid fa-angle-down down"></i>
+                            <i class="fa-solid fa-angle-up up"></i>
+                        </span> -->
+                            <div class="bulletpoints">
+                               <div> <br><span class="green">1</span>
+                                <span class="msg "><i class="fa-regular fa-clock"></i> Trigger this flow daily at 7am</span><br> </div><br>
+                            
+                            
+                                <div><span class="green">2</span>
+                                <span class="msg"> { } Retrieve data from <span class="walkover">Walkover </span> </span><br> </div><br>
+                            
+                            
+                                <div><span class="orng">3</span>
+                                <span class="msg"> <i class="fa-duotone fa-solid fa-filter"></i> Filter data <span style="background-color: rgb(250, 251, 249); border: 2px solid rgb(199, 226, 195); border-radius: 5px;">via code</span></span><br> </div><br>
+                            
+                            
+                                <div><span class="orng">4</span>
+                                <span class="msg"><i class="fa-solid fa-arrows-rotate"></i> Run following flow individually for each list item</span><br> </div><br>
+                            
+                            
+                                <div><span class="orng">5</span>
+                                <span class="msg"><i class="fa-brands fa-slack" style="color: #f0964c;"></i> Send message on slack <span class="walkover"><i class="fa-brands fa-slack" style="color: #f0964c;"></i> Slack</span></span><br> </div><br>
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="points">
+                    <span>
+                        <div class="star1">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span>For second step, please authenticate airtable to fetch base and table.</span><br><br>
+
+                        <span class="atn"><i class="fa-regular fa-circle-check"></i> Authenticated Successfully!</span>
+                        </div>
+
+                        <div class="star1">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span>Airtable authenticated Successfully!now please enter the Base name.</span><br><br>
+
+                        <span class="last-btn" style="left: 570px;">walkover</span>
+                        </div>
+
+                        <div class="star1">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span>Now please enter the table name.</span><br><br>
+                            <span class="last-btn">All Employees</span>
+                        </div>
+
+                        <div class="star1">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span>Step 2: Retrieve data from Airtable configured Successfully!Now let's move to third step.</span><br><br>
+                        </div>
+                        </span>
+                </div>
+                <div class="helpSection" >
+                    <div class="innerbox">
+                        <i class="fa-solid fa-star"></i><span>  What can I help you with?</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="rightContent"><br>
+                <div class="sideContent">
+                    <div class="sidebox">
+                        <div class="top">
+                            <div class="topleft">
+                                <i class="fa-regular fa-clock" ></i> <span>  Cron advance configuration</span>
+                            </div>
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <hr>
+                        <div class="mid">
+                            <div class="layer1">
+                                <span>Filter data</span>
+                                <i class="fa-solid fa-angle-up"></i>
+                            </div>
+                            <div class="layer2">
+                                <input type="radio" id="key" name="key" value="check">
+                                <label for="key">via key</label>
+                                <input type="radio" id="code" name="code" value="check">
+                                <label for="key">via code</label>
+                                <p>By default, Viasocket gives you the entire payload of the webhook. <br>
+                                    you can Fillter the data using custom code.
+                                </p>
+                            </div>
+                            <div class="blackbox">
+                                <span>Once user click on use code the code will come here.</span>
+                            </div>
+                            <div class="layer3">
+                                <button><i class="fa-solid fa-star"></i> Configure using AI</button>
+                            </div>
+                            <hr>
+    
+                            <div class="bottom">
+                                <div class="layer1" style="margin: 0;">
+                                    <span>Iterate over list</span>
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </div>
+                                <p>If your payload is a list and you want to run this flow individually for each list item then please enable this option.</p>
+    
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1"> Run flow one by one for all the list items.</label><br><br><br><br><br><br>
+    
+                                <button class="done" >Done</button><br>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

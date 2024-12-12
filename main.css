@@ -1,0 +1,263 @@
+* {
+  font-family: "Roboto", serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sideBar {
+  height: 97vh;
+  width: 17vw;
+  background-color: rgb(243, 250, 243);
+}
+.sideBar ul {
+  list-style-type: none;
+}
+.sideBar ul li {
+  margin-bottom: 10px;
+}
+.sideBar ul li .icons {
+  font-size: 13px;
+  margin: 5px;
+}
+.sideBar .list1 {
+  position: absolute;
+  left: -20px;
+  top: 50px;
+}
+.sideBar .list2 {
+  position: absolute;
+  left: -20px;
+  bottom: 20px;
+}
+.sideBar li:hover, .sideBar li :hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.main {
+  background-color: rgb(236, 241, 236);
+  height: 97vh;
+  width: 83vw;
+  border-left: 0.5px solid rgb(218, 217, 217);
+}
+.main .header {
+  margin: 20px 20px 5px 20px;
+  display: flex;
+  align-items: center;
+}
+.main .header .iconimg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.main .header .d-btn {
+  border-radius: 10px;
+  background-color: rgb(220, 218, 218);
+  margin-left: 5px;
+  border: 0;
+  color: rgb(100, 100, 100);
+  padding: 2px 8px;
+}
+.main .header .rightmost {
+  position: absolute;
+  right: 20px;
+}
+.main .header .rightmost .test {
+  background-color: rgb(185, 243, 185);
+  color: rgb(6, 81, 6);
+}
+.main .header .rightmost .publish {
+  background-color: rgb(50, 246, 50);
+}
+.main .header .bttn {
+  border: 0;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.main .header .d-btn:hover, .main .header .bttn:hover {
+  background-color: #595959;
+  color: white;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.leftContent {
+  width: 47.5vw;
+  height: 89vh;
+}
+.leftContent .box {
+  height: 38vh;
+  width: 45vw;
+  margin: 20px;
+  background-color: rgb(250, 251, 249);
+  border-radius: 8px;
+}
+.leftContent .box .text {
+  padding: 20px 20px 0 20px;
+}
+.leftContent .box .text .config {
+  position: relative;
+  left: 400px;
+  background-color: rgb(243, 223, 216);
+  color: rgb(251, 90, 32);
+  border: 0;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+.leftContent .box .text .bulletpoints {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftContent .box .text .green {
+  background-color: rgb(185, 243, 185);
+  color: rgb(54, 134, 54);
+  border: rgb(58, 187, 58) solid 2px;
+  border-radius: 3px;
+  padding: 1px 6px;
+}
+.leftContent .box .text .msg {
+  background-color: rgb(233, 243, 233);
+  border: 0;
+  padding: 7px 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.leftContent .box .text .orng {
+  background-color: rgb(243, 223, 216);
+  color: rgb(251, 90, 32);
+  border: rgb(247, 122, 77) solid 2px;
+  border-radius: 3px;
+  padding: 1px 6px;
+}
+.leftContent .points {
+  height: 37.5vh;
+  width: 45vw;
+  margin: 0 20px;
+}
+.leftContent .points .star1 {
+  margin: 10px 20px 15px 20px;
+}
+.leftContent .points .star1 span i {
+  color: rgb(42, 130, 42);
+  background-color: rgb(185, 243, 185);
+  padding: 3px;
+  border-radius: 4px;
+}
+.leftContent .points .star1 .atn {
+  background-color: rgb(185, 243, 185);
+  padding: 8px;
+  border-radius: 5px;
+  margin: 0 30px;
+}
+.leftContent .points .star1 .last-btn {
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 532px;
+}
+.leftContent .helpSection {
+  position: relative;
+  height: 7vh;
+  width: 45vw;
+  margin: 5px 20px;
+  border-radius: 12px; /* Rounded corners for the border */
+  background: linear-gradient(to right, rgb(110, 242, 110), rgb(34, 201, 34), rgb(2, 130, 2)); /* Gradient border */
+  padding: 3px; /* Thickness of the border */
+  box-sizing: border-box; /* Ensures padding doesn't affect size */
+}
+.leftContent .helpSection .innerbox {
+  height: 100%;
+  width: 100%;
+  background-color: white; /* Inner background */
+  border-radius: 10px; /* Matches parent to ensure seamless rounding */
+  display: flex; /* Optional: To center content */
+  align-items: center; /* Optional: Vertical centering */
+  justify-content: center; /* Optional: Horizontal centering */
+}
+.leftContent .helpSection .innerbox .fa-star {
+  color: rgb(110, 242, 110);
+  position: relative;
+  right: 200px;
+}
+.leftContent .helpSection .innerbox span {
+  color: rgb(100, 99, 99);
+  position: relative;
+  right: 190px;
+}
+.leftContent .helpSection .innerbox .fa-paper-plane {
+  color: rgb(2, 130, 2);
+  position: relative;
+  left: 200px;
+}
+
+.content {
+  display: flex;
+}
+
+.sideContent {
+  height: 80vh;
+  width: 34vw;
+}
+.sideContent .sidebox {
+  border: 0.5px solid rgb(218, 217, 217);
+  border-radius: 4px;
+  background-color: rgb(250, 251, 249);
+}
+.sideContent .sidebox .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+.sideContent .sidebox .top .topleft span {
+  font-weight: 500;
+}
+.sideContent .sidebox .layer1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.sideContent .sidebox .layer1 span {
+  font-weight: 700;
+}
+.sideContent .sidebox .layer2 {
+  margin: 10px 15px;
+}
+.sideContent .sidebox .layer2 p {
+  font-size: 15px;
+}
+.sideContent .sidebox .blackbox {
+  background-color: rgb(68, 68, 68);
+  width: 95%;
+  height: 9vw;
+  margin: auto;
+}
+.sideContent .sidebox .blackbox span {
+  color: rgb(237, 233, 233);
+  font-family: "IBM Plex Mono", monospace;
+  margin: 5px;
+}
+.sideContent .sidebox .layer3 button {
+  color: rgb(42, 130, 42);
+  background-color: rgb(211, 248, 211);
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 10px;
+  margin: 10px 15px;
+}
+.sideContent .sidebox .bottom {
+  margin: 15px;
+}
+.sideContent .sidebox .bottom p {
+  font-size: 15px;
+}
+.sideContent .sidebox .done {
+  border: 0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background-color: rgb(50, 246, 50);
+}/*# sourceMappingURL=main.css.map */

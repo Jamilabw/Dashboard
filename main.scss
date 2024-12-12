@@ -1,0 +1,301 @@
+@import "var";
+*{
+    font-family: "Roboto", serif;
+}
+.container{
+    display: flex;
+}
+
+.sideBar{
+    height: 97vh;
+    width: 17vw;
+    background-color: $primary-bg;
+
+    ul{
+        list-style-type: none;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+
+    ul li .icons {
+        font-size: 13px;
+        margin: 5px;
+      }
+
+    .list1{
+        position: absolute;
+        left: -20px;
+        top: 50px;
+    }
+
+    .list2{
+        position: absolute;
+        left: -20px;
+        bottom: 20px;
+    }
+
+    li:hover, li :hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }   
+}
+
+.main{
+    background-color: $secondary-bg;
+    height: 97vh;
+    width: 83vw;
+    border-left: 0.5px solid $border-gray;
+
+    .header{
+        margin: 20px 20px 5px 20px;
+        display: flex;
+        align-items: center ;
+
+        .iconimg{
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .d-btn{
+            border-radius: 10px;
+            background-color: rgb(220, 218, 218);
+            margin-left: 5px;
+            border: 0;
+            color: rgb(100, 100, 100);
+            padding: 2px 8px;
+        }
+        
+        .rightmost{
+            position: absolute;
+            right: 20px;
+
+            .test{
+                background-color: $applegreen;
+                color: $mossgreen;  
+            }
+
+            .publish{
+                background-color: $hotgreen;
+            }
+        }
+        .bttn{
+            border: 0;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+
+        .d-btn:hover, .bttn:hover {
+            background-color: #595959;
+            color: white;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+.leftContent{
+    width: 47.5vw;
+    height: 89vh;
+
+    .box{
+        height: 38vh;
+        width: 45vw;
+        margin: 20px;
+        background-color: rgb(250, 251, 249);
+        border-radius: 8px;
+
+        .text{
+            padding: 20px 20px 0 20px ;
+
+            .config{
+                position: relative;
+                left: 400px;
+                background-color: rgb(243, 223, 216);
+                color: rgb(251, 90, 32);
+                border: 0;
+                padding: 5px 8px;
+                border-radius: 3px;   
+            }
+
+            .bulletpoints{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .green{
+                background-color: $applegreen;
+                color: rgb(54, 134, 54);
+                border: $textgreen solid 2px;
+                border-radius: 3px;
+                padding: 1px 6px;
+
+            }
+            .msg{
+                background-color: rgb(233, 243, 233);
+                border: 0;
+                padding: 7px 15px;
+                margin: 10px;
+                border-radius: 5px;
+                
+            }
+            .orng{
+                background-color: $orange_bg;
+                color: $orange_text;
+                border: rgb(247, 122, 77) solid 2px;
+                border-radius: 3px;
+                padding: 1px 6px;
+            }
+        }
+    }
+
+    .points{
+        height: 37.5vh;
+        width: 45vw;
+        margin: 0 20px;
+        
+        .star1{
+            margin: 10px 20px 15px 20px;
+            span i{
+                color: rgb(42, 130, 42);
+                background-color: rgb(185, 243, 185);
+                padding: 3px; 
+                border-radius: 4px;
+            }
+
+            .atn{
+                background-color: rgb(185, 243, 185);
+                padding: 8px;
+                border-radius: 5px;
+                margin: 0 30px;
+            }
+            .last-btn{
+                background-color: rgb(255, 255, 255);
+                padding: 5px 10px;
+                border-radius: 5px;
+                position: relative;
+                left: 532px;
+            }
+        }
+    }
+
+    .helpSection{
+        position: relative;
+        height: 7vh;
+        width: 45vw;
+        margin: 5px 20px;
+        border-radius: 12px; 
+        background: linear-gradient(to right, rgb(110, 242, 110), rgb(34, 201, 34), rgb(2, 130, 2)); 
+        padding: 3px; 
+        box-sizing: border-box; 
+
+        .innerbox {
+            height: 100%;
+            width: 100%;
+            background-color: white; 
+            border-radius: 10px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+
+            .fa-star{
+                color: rgb(110, 242, 110);
+                position: relative;
+                right: 200px;
+            }
+            span{
+                color: rgb(100, 99, 99);
+                position: relative;
+                right: 190px;
+            }
+            .fa-paper-plane{
+                color: rgb(2, 130, 2);
+                position: relative;
+                left: 200px;
+            }
+        }
+    }
+}
+.content{
+    display: flex;
+}
+.sideContent{
+    height: 80vh;
+    width: 34vw;
+    
+    .sidebox{
+        border: 0.5px solid rgb(218, 217, 217);
+        border-radius: 4px;
+        background-color: rgb(250, 251, 249);
+
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px 15px;
+
+            .topleft span{
+                font-weight: 500;
+            }
+        }
+        .layer1{
+            display: flex;
+            justify-content: space-between;
+            margin: 15px;
+
+            span{
+                font-weight: 700;
+            }
+        }
+        .layer2{
+            margin: 10px 15px;
+
+            p{
+            font-size:15px;
+            }
+        } 
+        .blackbox{
+            background-color: rgb(68, 68, 68);
+            width: 95%;
+            height: 9vw;
+            margin: auto;
+            span{
+                color: rgb(237, 233, 233);
+                font-family: "IBM Plex Mono", monospace;
+                margin: 5px;
+            }
+        }
+        .layer3 button{
+            color: rgb(42, 130, 42);
+            background-color: rgb(211, 248, 211);
+            border: 0;
+            border-radius: 3px;
+            padding: 8px 10px;
+            margin: 10px 15px;
+        } 
+        .bottom{
+            margin: 15px;
+            p{
+                font-size: 15px;
+            }
+        }
+        .done{
+            border: 0;
+            border-radius: 4px;
+            padding: 4px 8px;
+            background-color: $hotgreen;
+        }
+
+    }  
+}
+.dark-mode {
+    background-color: rgb(0, 56, 30);
+    color: white;
+}
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
