@@ -10,6 +10,7 @@ class Toggle {
         this.atnElement = document.querySelector(".atn");
         this.hr = document.querySelectorAll("hr");
         this.blackbox = document.querySelector(".blackbox");
+        this.sidebarimg = document.querySelector(".sidebar-img");
 
         this.initialize();
     }
@@ -41,6 +42,9 @@ class Toggle {
         if (this.atnElement) {
             this.atnElement.style.color = "#4B5945";
         }
+        if(this.sidebarimg){
+            this.sidebarimg.style.display = "none";
+        }
     }
 
     removeDarkMode() {
@@ -71,6 +75,9 @@ class Toggle {
 
         if (this.atnElement) {
             this.atnElement.style.color = "";
+        }
+        if(this.sidebarimg){
+            this.sidebarimg.style.display = "";
         }
     }
 
